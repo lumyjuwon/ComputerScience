@@ -10,9 +10,9 @@ Array는 연속된 메모리 위치에 저장돼 있는 Element의 Collection이
 
 Selection Sorting은 정렬하고자 하는 Array와 Array내에서 SubArray라는 가상의 영역을 둬 Array내에서 가장 작은 값을 SubArray에 연속으로 배치하는 형식의 Sorting이다.
 
-![ex_screenshot](./img/1.png)
+![ex_screenshot](./img/1.PNG)
 
-[코드](https://www.google.com)
+[코드](https://github.com/lumyjuwon/ComputerScience/blob/master/DataStructure/Linear/Array/SelectionSort.cpp)
 
 ### Insert Sorting
 
