@@ -12,9 +12,10 @@ Selection Sorting은 정렬하고자 하는 Array와 Array내에서 SubArray라�
 
 ![ex_screenshot](./img/1.PNG)  
 
+Array 영역에서 순회하며 순회가 끝났을 때 가장 작은 값이 Array 영역 내에서 첫 번째 Index와 Swap이 이루어진다. (첫 번째 Index는 SubArray로 인해 줄어든 Array 영역 내에서의 첫 번째 Index를 뜻한다)  
 
 ![ex_screenshot](./img/2.PNG)  
-첫 번째 Loop이 SubArray의 index를 채워나가는 Loop으로 보고 두 번째 Loop이 SubArray의 영역을 제외한 Array 영역에서 제일 작은 값을 찾아내기 위한 Loop이라 보면 된다.
+첫 번째 Loop이 Swap이 이루어질 때 바뀔 Inedx를 가리키며 두 번째 Loop이 SubArray의 영역을 제외한 Array 영역에서 제일 작은 값을 찾아내기 위한 로직이라 보면 된다.
 
 **Time Complexity**: O(n<sup>2</sup>)  
 **Space Complexity**: O(n)
