@@ -3,12 +3,8 @@
 int main()
 {
     // Input
-    int[] arr = {10, 392, 43, -32, 14};
+    int arr[] = {10, 392, 43, -32, 14};
     int n = sizeof(arr) / sizeof(int);
-
-    for (int k = 0; k < n; k++) {
-        std::cin >> arr[k];
-    }
 
     // Sort
     for (int k = 0; k < n - 1; k++) {
